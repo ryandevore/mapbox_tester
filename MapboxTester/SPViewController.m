@@ -132,6 +132,19 @@
     [self.mapboxView addAnnotation:annotation];
     [self.mapboxView selectAnnotation:annotation animated:YES];
     [self.mapboxView setZoom:15 atCoordinate:annotation.coordinate animated:YES];
+    
+    // This produces the same result
+    /*
+    CLLocationCoordinate2D sw;
+    sw.latitude = coord.latitude - 0.03f;
+    sw.longitude = coord.longitude - 0.03f;
+    
+    CLLocationCoordinate2D ne;
+    ne.latitude = coord.latitude + 0.03f;
+    ne.longitude = coord.longitude + 0.03f;
+    
+    [self.mapboxView zoomWithLatitudeLongitudeBoundsSouthWest:sw northEast:ne animated:YES];
+    */
 }
 
 #pragma mark - RMMapViewDelegate
