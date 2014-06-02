@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>93CCD0D4-2245-4EEE-BA23-18B0A7B16994</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MapboxTester</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6A137CF2-5E31-4684-A024-65A971F60B14</key>
+		<string>ssh://github.com/ryandevore/mapbox_tester.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MapboxTester.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6A137CF2-5E31-4684-A024-65A971F60B14</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/ryandevore/mapbox_tester.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6A137CF2-5E31-4684-A024-65A971F60B14</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6A137CF2-5E31-4684-A024-65A971F60B14</string>
+			<key>IDESourceControlWCCName</key>
+			<string>mapbox_tester</string>
+		</dict>
+	</array>
+</dict>
+</plist>
