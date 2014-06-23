@@ -22,7 +22,8 @@
 		0865FDB1193C744D00F82730 /* SPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0865FDAF193C744D00F82730 /* SPViewController.m */; };
 		0865FDB2193C744D00F82730 /* SPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0865FDB0193C744D00F82730 /* SPViewController.xib */; };
 		0865FDB4193C746900F82730 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0865FDB3193C746900F82730 /* libsqlite3.0.dylib */; };
-		08DC89B6195890E700E30233 /* libMapbox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08DC89B1195890D200E30233 /* libMapbox.a */; };
+		08DC89C6195895CF00E30233 /* libMapbox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08DC89BF195895AF00E30233 /* libMapbox.a */; };
+		08DC89D019589D2000E30233 /* Mapbox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 08DC89C1195895AF00E30233 /* Mapbox.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,26 +34,33 @@
 			remoteGlobalIDString = 0865FD7B193C743700F82730;
 			remoteInfo = MapboxTester;
 		};
-		08DC89B0195890D200E30233 /* PBXContainerItemProxy */ = {
+		08DC89BE195895AF00E30233 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 08DC89AB195890D200E30233 /* MapView.xcodeproj */;
+			containerPortal = 08DC89B9195895AF00E30233 /* MapView.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 17F31EFA1331050A00122B16;
 			remoteInfo = MapView;
 		};
-		08DC89B2195890D200E30233 /* PBXContainerItemProxy */ = {
+		08DC89C0195895AF00E30233 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 08DC89AB195890D200E30233 /* MapView.xcodeproj */;
+			containerPortal = 08DC89B9195895AF00E30233 /* MapView.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = DD6A83751644A20C0097F31F;
 			remoteInfo = Resources;
 		};
-		08DC89B4195890E200E30233 /* PBXContainerItemProxy */ = {
+		08DC89C2195895C900E30233 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 08DC89AB195890D200E30233 /* MapView.xcodeproj */;
+			containerPortal = 08DC89B9195895AF00E30233 /* MapView.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = B8C974130E8A19B2007D16AD;
 			remoteInfo = MapView;
+		};
+		08DC89C4195895C900E30233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08DC89B9195895AF00E30233 /* MapView.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DD6A83741644A20C0097F31F;
+			remoteInfo = Resources;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -77,7 +85,7 @@
 		0865FDAF193C744D00F82730 /* SPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPViewController.m; sourceTree = "<group>"; };
 		0865FDB0193C744D00F82730 /* SPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPViewController.xib; sourceTree = "<group>"; };
 		0865FDB3193C746900F82730 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
-		08DC89AB195890D200E30233 /* MapView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MapView.xcodeproj; path = "mapbox-ios-sdk/MapView/MapView.xcodeproj"; sourceTree = "<group>"; };
+		08DC89B9195895AF00E30233 /* MapView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MapView.xcodeproj; path = "mapbox-ios-sdk/MapView/MapView.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08DC89B6195890E700E30233 /* libMapbox.a in Frameworks */,
+				08DC89C6195895CF00E30233 /* libMapbox.a in Frameworks */,
 				0865FD82193C743700F82730 /* CoreGraphics.framework in Frameworks */,
 				0865FD84193C743700F82730 /* UIKit.framework in Frameworks */,
 				0865FDB4193C746900F82730 /* libsqlite3.0.dylib in Frameworks */,
@@ -109,7 +117,7 @@
 		0865FD73193C743700F82730 = {
 			isa = PBXGroup;
 			children = (
-				08DC89AB195890D200E30233 /* MapView.xcodeproj */,
+				08DC89B9195895AF00E30233 /* MapView.xcodeproj */,
 				0865FD85193C743700F82730 /* MapboxTester */,
 				0865FD9E193C743700F82730 /* MapboxTesterTests */,
 				0865FD7E193C743700F82730 /* Frameworks */,
@@ -181,11 +189,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		08DC89AC195890D200E30233 /* Products */ = {
+		08DC89BA195895AF00E30233 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				08DC89B1195890D200E30233 /* libMapbox.a */,
-				08DC89B3195890D200E30233 /* Mapbox.bundle */,
+				08DC89BF195895AF00E30233 /* libMapbox.a */,
+				08DC89C1195895AF00E30233 /* Mapbox.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -204,7 +212,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				08DC89B5195890E200E30233 /* PBXTargetDependency */,
+				08DC89C3195895C900E30233 /* PBXTargetDependency */,
+				08DC89C5195895C900E30233 /* PBXTargetDependency */,
 			);
 			name = MapboxTester;
 			productName = MapboxTester;
@@ -256,8 +265,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 08DC89AC195890D200E30233 /* Products */;
-					ProjectRef = 08DC89AB195890D200E30233 /* MapView.xcodeproj */;
+					ProductGroup = 08DC89BA195895AF00E30233 /* Products */;
+					ProjectRef = 08DC89B9195895AF00E30233 /* MapView.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -269,18 +278,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		08DC89B1195890D200E30233 /* libMapbox.a */ = {
+		08DC89BF195895AF00E30233 /* libMapbox.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libMapbox.a;
-			remoteRef = 08DC89B0195890D200E30233 /* PBXContainerItemProxy */;
+			remoteRef = 08DC89BE195895AF00E30233 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		08DC89B3195890D200E30233 /* Mapbox.bundle */ = {
+		08DC89C1195895AF00E30233 /* Mapbox.bundle */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = Mapbox.bundle;
-			remoteRef = 08DC89B2195890D200E30233 /* PBXContainerItemProxy */;
+			remoteRef = 08DC89C0195895AF00E30233 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -290,6 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08DC89D019589D2000E30233 /* Mapbox.bundle in Resources */,
 				0865FD8A193C743700F82730 /* InfoPlist.strings in Resources */,
 				0865FDB2193C744D00F82730 /* SPViewController.xib in Resources */,
 				0865FD92193C743700F82730 /* Images.xcassets in Resources */,
@@ -333,10 +343,15 @@
 			target = 0865FD7B193C743700F82730 /* MapboxTester */;
 			targetProxy = 0865FD9C193C743700F82730 /* PBXContainerItemProxy */;
 		};
-		08DC89B5195890E200E30233 /* PBXTargetDependency */ = {
+		08DC89C3195895C900E30233 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MapView;
-			targetProxy = 08DC89B4195890E200E30233 /* PBXContainerItemProxy */;
+			targetProxy = 08DC89C2195895C900E30233 /* PBXContainerItemProxy */;
+		};
+		08DC89C5195895C900E30233 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Resources;
+			targetProxy = 08DC89C4195895C900E30233 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
